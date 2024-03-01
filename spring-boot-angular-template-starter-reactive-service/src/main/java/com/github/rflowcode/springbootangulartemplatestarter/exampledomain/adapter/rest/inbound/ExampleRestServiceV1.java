@@ -3,7 +3,6 @@ package com.github.rflowcode.springbootangulartemplatestarter.exampledomain.adap
 import com.github.rflowcode.springbootangulartemplatestarter.exampledomain.domain.api.inbound.IExampleInboundApi;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;

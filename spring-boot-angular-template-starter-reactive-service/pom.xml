@@ -22,7 +22,7 @@
         <example-api.version>1.0.0-SNAPSHOT</example-api.version>
 
         <mapstruct.version>1.5.3.Final</mapstruct.version>
-        <lombok.version>1.18.24</lombok.version>
+        <lombok.version>1.18.30</lombok.version>
         <openapi-generator.version>7.3.0</openapi-generator.version>
         <remote-resourcen.version>3.0.0</remote-resourcen.version>
     </properties>
