@@ -1,0 +1,26 @@
+<div class="page-layout mat-app-background">
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <div class="bootstrap-container">
+        <div class="menubar">
+          <div class="items">
+            <span>Spring Boot Angular Starter Template</span>
+            <button mat-button [routerLink]="'/home'">Home</button>
+            <button mat-button [routerLink]="'/random-number'">Random Number</button>
+          </div>
+          <div class="items">
+            <button mat-icon-button (click)="openGithubRepo()">
+              <mat-icon>code</mat-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <div class="page-content">
+    <div class="bootstrap-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<h1>Random Numbers</h1>
+<div style="padding-top: 0.5rem; padding-bottom: 0.5rem; display: flex; flex-direction: column; gap: 1rem;">
+  <div style="display: flex; gap: 0.5rem;">
+    <button mat-raised-button color="accent" [disabled]="fetchDisabled" (click)="fetchRandomNumber()">Fetch random
+      number now
+    </button>
+    <button mat-raised-button color="warn" (click)="clearResults()">Clear results</button>
+  </div>
+
+  <span>Next random number in: <span [innerText]="remainingSeconds"></span> seconds!</span>
+  <mat-progress-bar color="accent" mode="determinate" [value]="getProgressValue()"></mat-progress-bar>
+</div>
+<h2>Results</h2>
+<mat-list *ngIf="results.length > 0; else noResults">
+  <mat-list-item *ngFor="let entry of results">
+    <span matListItemTitle [innerText]="entry.value"></span>
+    <span matListItemLine [innerText]="entry.timestamp | date: 'medium'"></span>
+  </mat-list-item>
+</mat-list>
+
+<ng-template #noResults>
+  <span>No results!</span>
+</ng-template>

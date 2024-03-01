@@ -1,0 +1,16 @@
+{
+  "interfaceOnly": true,
+  "skipDefaultInterface": true,
+  "reactive": true,
+  "implicitHeaders": true,
+  "dateLibrary": "java8",
+  "swaggerDocketConfig": false,
+  "useTags": true,
+  "useSwaggerUI": false,
+  "generateApiTests": false,
+  "generateApiDocumentation": false,
+  "supportingFiles": false,
+  "requestMappingMode": "api_interface",
+  "useSpringBoot3": true,
+  "documentationProvider": "none"
+}

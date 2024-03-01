@@ -1,0 +1,51 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "spring-boot-angular-template-starter-service-api",
+    "description": "Example API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://spring-boot-angular-template-starter-service-api/rest"
+    }
+  ],
+  "paths": {
+    "/example": {
+      "get": {
+        "tags": [
+          "Example"
+        ],
+        "summary": "Retrieve a random number",
+        "operationId": "getRandomNumber",
+        "responses": {
+          "200": {
+            "description": "Random Number",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ExampleResponseDto": {
+        "required": [
+          "randomNumber"
+        ],
+        "type": "object",
+        "properties": {
+          "randomNumber": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}

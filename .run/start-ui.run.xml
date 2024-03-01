@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="start-ui" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/spring-boot-angular-template-starter-ui/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="start" />
+    </scripts>
+    <node-interpreter value="/usr/local/bin/node" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
