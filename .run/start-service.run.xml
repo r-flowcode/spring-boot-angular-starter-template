@@ -1,7 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="start-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-    <module name="spring-boot-angular-template-starter-reactive-service" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.rflowcode.springbootangulartemplatestarter.SpringBootAngularTemplateStarterApplication" />
+    <module name="spring-boot-angular-starter-template-reactive-service"/>
+    <option name="SPRING_BOOT_MAIN_CLASS"
+            value="com.github.rflowcode.springbootangularstartertemplate.SpringBootAngularStarterTemplateApplication"/>
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
