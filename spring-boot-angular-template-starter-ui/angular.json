@@ -64,10 +64,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "spring-boot-angular-template-starter-ui:build:production"
+              "buildTarget": "spring-boot-angular-template-starter-ui:build:production"
             },
             "development": {
-              "browserTarget": "spring-boot-angular-template-starter-ui:build:development"
+              "buildTarget": "spring-boot-angular-template-starter-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "spring-boot-angular-template-starter-ui:build"
+            "buildTarget": "spring-boot-angular-template-starter-ui:build"
           }
         },
         "test": {
